@@ -30,7 +30,7 @@ def enviar_alerta_telegram(mensagem):
         print(f"[!] Erro de conexão ao enviar alerta: {e}")
 
 def gerar_relatorio_csv(ip, tentativas, data_inicio, data_fim):
-    arquivo_csv = "relatorio_incidentes.csv"
+    arquivo_csv = "data/relatório_incidentes.csv"
     # Verifica se o arquivo já existe para não ficar repetindo o cabeçalho
     existe = os.path.exists(arquivo_csv)
     
@@ -118,7 +118,7 @@ def analisar_logs(logs, limite_tentativas, janela_minutos):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Analisador de Logs de Segurança SecOps Edition.")
-    parser.add_argument("-a", "--arquivo", type=str, default="import.txt", help="Caminho do arquivo de log")
+    parser.add_argument("-a", "--arquivo", type=str, default="data/import.txt", help="Caminho do arquivo de log")
     parser.add_argument("-t", "--tentativas", type=int, default=3, help="Limite de tentativas falhas")
     parser.add_argument("-j", "--janela", type=int, default=2, help="Janela de tempo em minutos")
     
