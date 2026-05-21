@@ -19,3 +19,7 @@
 2026-05-20 22:17:32,536 [INFO] Configuração ativa: Limite=3 tentativas | Janela=2 minutos
 2026-05-20 22:17:54,068 [INFO] 
 [-] Monitoramento interrompido pelo usuário. Desligando SOC.
+2026-05-20 22:19:49,257 [INFO] Iniciando monitoramento SecOps em tempo real no arquivo: data/import.txt
+2026-05-20 22:19:49,259 [INFO] Configuração ativa: Limite=3 tentativas | Janela=2 minutos
+2026-05-20 22:23:30,078 [INFO] Notificação enviada com sucesso para o Telegram!
+2026-05-20 22:23:30,085 [INFO] Incidente do IP 192.168.10.15 registrado com sucesso em CSV.
