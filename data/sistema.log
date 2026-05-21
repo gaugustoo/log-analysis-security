@@ -1,0 +1,21 @@
+2026-05-20 21:53:18,603 [INFO] Iniciando monitoramento SecOps em tempo real no arquivo: data/import.txt
+2026-05-20 21:53:18,604 [INFO] Configuração ativa: Limite=3 tentativas | Janela=2 minutos
+2026-05-20 21:56:10,941 [INFO] Notificação enviada com sucesso para o Telegram!
+2026-05-20 21:56:10,954 [INFO] Incidente do IP 172.16.0.5 registrado com sucesso em CSV.
+2026-05-20 21:56:36,911 [INFO] 
+[-] Monitoramento interrompido pelo usuário. Desligando SOC.
+2026-05-20 22:11:31,505 [INFO] Iniciando monitoramento SecOps em tempo real no arquivo: data/import.txt
+2026-05-20 22:11:31,506 [INFO] Configuração ativa: Limite=3 tentativas | Janela=2 minutos
+2026-05-20 22:13:44,936 [ERROR] Erro ao parsear linha de log: list index out of range
+2026-05-20 22:13:44,938 [ERROR] Erro ao parsear linha de log: list index out of range
+2026-05-20 22:13:44,940 [ERROR] Erro ao parsear linha de log: list index out of range
+2026-05-20 22:14:32,067 [INFO] 
+[-] Monitoramento interrompido pelo usuário. Desligando SOC.
+2026-05-20 22:14:39,690 [INFO] Iniciando monitoramento SecOps em tempo real no arquivo: data/import.txt
+2026-05-20 22:14:39,692 [INFO] Configuração ativa: Limite=3 tentativas | Janela=2 minutos
+2026-05-20 22:17:21,145 [INFO] 
+[-] Monitoramento interrompido pelo usuário. Desligando SOC.
+2026-05-20 22:17:32,535 [INFO] Iniciando monitoramento SecOps em tempo real no arquivo: data/import.txt
+2026-05-20 22:17:32,536 [INFO] Configuração ativa: Limite=3 tentativas | Janela=2 minutos
+2026-05-20 22:17:54,068 [INFO] 
+[-] Monitoramento interrompido pelo usuário. Desligando SOC.
